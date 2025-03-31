@@ -3,6 +3,7 @@ Escreva um programa que receba um nome completo e exiba apenas o sobrenome (últ
 */
 #include <iostream>
 #include <string>
+#include <cstdio>
 using namespace std;
 
 int main() {
@@ -19,6 +20,6 @@ int main() {
     }
 
     // Exibe o último nome
-    cout << "Sobrenome: " << ultimoNome << endl;
+    printf("Sobrenome: %s\n", ultimoNome.c_str());
 
 }
